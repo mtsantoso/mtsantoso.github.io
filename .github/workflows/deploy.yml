@@ -101,6 +101,11 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Encrypt design page 🔒
+        run: |
+          npm install -g staticrypt
+          npx staticrypt _site/design/index.html -p "${{ secrets.STATICRYPT_PASSWORD }}"
+          cp encrypted/index.html _site/design/index.html
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
