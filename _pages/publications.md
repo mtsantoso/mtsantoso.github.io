@@ -15,11 +15,11 @@ nav_order: 2
   </div>
   <div class="col-sm-4">
     <h5>Human-Centric AI, Social Media & Immersive Media (HCAI)</h5>
-    <p>I design and investigate the role of AI, social media, and VR for invoking prosocial behavior change through qualitative and quantitative methods.</p>
+    <p>I investigate the role of AI, social media, and VR for invoking prosocial behavior change through qualitative and quantitative methods.</p>
   </div>
   <div class="col-sm-4">
     <h5>Healthcare Operations, Policy and Economic Analysis (HCP)</h5>
-    <p>I develop methodological approaches and investigate how health and technology policy influence youth mental health and economic outcomes.</p>
+    <p>I develop methodological approaches and design systems to understand how health and technology policy influence youth mental health and economic outcomes.</p>
   </div>
 </div>
 
